@@ -90,7 +90,7 @@ object Matchers extends StrictLogging {
         case "integer" => TypeMatcher
         case "real" => TypeMatcher
         case "decimal" => TypeMatcher
-        case "timestamp" => TypeMatcher
+        case "timestamp" => TimestampMatcher
         case "time" => TimeMatcher
         case "date" => DateMatcher
         case "min" => MinimumMatcher
